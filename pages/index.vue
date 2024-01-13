@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import { Motion, Presence, PresenceGroup } from "@oku-ui/motion"
-import { useSpring } from "@vueuse/motion";
-
-
 
 const people = [{
     id: 1,
