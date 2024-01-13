@@ -35,7 +35,7 @@ const c = ref<VNode | null>(null)
           maskPosition: `${mousePosition.x - maskSize / 2}px ${
             mousePosition.y - maskSize / 2
           }px`,
-          maskImage: 'url(/mask.svg)',
+          maskImage: 'url(/components/mask.svg)',
           maskSize: `${maskSize}px`,
           transition: {
             duration: 0.1,
